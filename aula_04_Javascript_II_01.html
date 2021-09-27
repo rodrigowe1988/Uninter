@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Aula 04 Uninter - Javascript II</title>
+	<style>
+		body {
+			background-color: #efefef;
+		}
+	</style>
+</head>
+<body>
+	<p>Javascript rodando por "baixo do capô"</p>
+	<script>
+		let carrinhoCompras = {
+			pedido: ["Cheese Burger", "Batata Peq", "Suco Uva"],
+			entregue: false,
+			pago: false,
+
+			atualiza_estoque: function() {alert("Diminui qtd")},
+			calcula_compra: function() {alert("Soma Produtos")},
+			atualiza_caixa: function() {alert("Soma valor no caixa")}
+		}
+		alert(carrinhoCompras.pago);
+		carrinhoCompras.pago = true;
+		alert(carrinhoCompras.pago);
+		alert('teste'.toUpperCase());
+	</script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tabuada Dinâmica</title>
+	<style>
+		body {
+			background-image: url(math.jpg);
+			background-size: 1400px;
+		}
+	</style>
+</head>
+<body>
+	<script>
+		let number = prompt("Escolha um número para ver a tabuada: ");
+		document.write("<h1>Tabuada do " + number + "</h1>");
+		for (let i = 0; i <= 10; i++) {
+			document.write(number + " x " + i + " = <b>" + number * i + "</b><br>");
+		}
+	</script>
+</body>
+</html>

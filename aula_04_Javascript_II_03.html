@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Hierarquia DOM</title>
+</head>
+<body>
+	<div>
+		<h1>Título</h1>
+		<div>
+			<table>
+				<tr>teste
+				<td>teste_item_1</td>
+				<td>teste_item_2</td>
+				<td>teste_item_3</td>
+				<td>teste_item_4</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	<script>
+		let tab = 5;
+		document.write("<h1>Tabuada do "+tab+"</h1>");
+		for (let num = 0; num < 10; num++) {
+			document.write(tab + " x " + num + " = <b>" + tab * num + "</b><br>");
+		}
+	</script>
+</body>
+</html>
